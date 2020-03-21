@@ -8,8 +8,10 @@ const printLinkedList = node => {
   // Create a results string that we'll build up
   let res = '';
 
+
   // Set the pointer to the start
   let curr = node;
+
 
   // Use node.next to iterate through all nodes
   // until we finish the list and hit a null node
@@ -37,6 +39,6 @@ const testPrintLinkedList = () => {
 
   printLinkedList(A);
 };
-// testPrintLinkedList();
+testPrintLinkedList();
 
 module.exports = { printLinkedList };
